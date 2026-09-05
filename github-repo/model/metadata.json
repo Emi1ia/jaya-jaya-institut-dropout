@@ -1,0 +1,73 @@
+{
+  "best_model": "LogisticRegression",
+  "metrics": {
+    "LogisticRegression": {
+      "cv_f1_mean": 0.874,
+      "accuracy": 0.9421,
+      "precision": 0.9321,
+      "recall": 0.919,
+      "f1": 0.9255,
+      "roc_auc": 0.9733
+    },
+    "RandomForest": {
+      "cv_f1_mean": 0.8676,
+      "accuracy": 0.9229,
+      "precision": 0.9161,
+      "recall": 0.8838,
+      "f1": 0.8996,
+      "roc_auc": 0.9709
+    }
+  },
+  "feature_names": [
+    "Marital_status",
+    "Application_mode",
+    "Application_order",
+    "Course",
+    "Daytime_evening_attendance",
+    "Previous_qualification",
+    "Previous_qualification_grade",
+    "Nacionality",
+    "Mothers_qualification",
+    "Fathers_qualification",
+    "Mothers_occupation",
+    "Fathers_occupation",
+    "Admission_grade",
+    "Displaced",
+    "Educational_special_needs",
+    "Debtor",
+    "Tuition_fees_up_to_date",
+    "Gender",
+    "Scholarship_holder",
+    "Age_at_enrollment",
+    "International",
+    "Curricular_units_1st_sem_credited",
+    "Curricular_units_1st_sem_enrolled",
+    "Curricular_units_1st_sem_evaluations",
+    "Curricular_units_1st_sem_approved",
+    "Curricular_units_1st_sem_grade",
+    "Curricular_units_1st_sem_without_evaluations",
+    "Curricular_units_2nd_sem_credited",
+    "Curricular_units_2nd_sem_enrolled",
+    "Curricular_units_2nd_sem_evaluations",
+    "Curricular_units_2nd_sem_approved",
+    "Curricular_units_2nd_sem_grade",
+    "Curricular_units_2nd_sem_without_evaluations",
+    "Unemployment_rate",
+    "Inflation_rate",
+    "GDP"
+  ],
+  "top_features": {
+    "Curricular_units_2nd_sem_approved": 0.2259,
+    "Curricular_units_1st_sem_approved": 0.1443,
+    "Curricular_units_2nd_sem_grade": 0.1267,
+    "Curricular_units_1st_sem_grade": 0.068,
+    "Tuition_fees_up_to_date": 0.0518,
+    "Curricular_units_2nd_sem_evaluations": 0.0307,
+    "Age_at_enrollment": 0.0296,
+    "Curricular_units_1st_sem_evaluations": 0.0261,
+    "Scholarship_holder": 0.0261,
+    "Admission_grade": 0.0259,
+    "Course": 0.0242,
+    "Previous_qualification_grade": 0.0231
+  }
+}
